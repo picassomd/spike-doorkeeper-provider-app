@@ -22,6 +22,9 @@ gem "rollbar"
 gem "puma"
 gem "rack-timeout"
 
+gem 'doorkeeper-jwt'
+gem 'doorkeeper-openid_connect'
+
 group :development do
   gem "listen"
   gem "rubocop-performance"
